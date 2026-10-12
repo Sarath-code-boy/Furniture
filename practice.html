@@ -1,0 +1,363 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media screen and (max-width: 600px) {
+
+    /* Prevent horizontal extra width */
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        gap: 10px;
+    }
+
+    nav h1 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .search {
+        margin-left: 5px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .user {
+        margin-left: 0;
+        width: 25px;
+        height: 25px;
+    }
+
+
+    /* ================= MAIN IMAGE ================= */
+
+    .main-image {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        box-shadow: -5px 12px 1px 2px rgba(225, 171, 71, 0.386);
+        border-radius: 5px;
+    }
+
+    .blur {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -150px;
+    }
+
+
+    /* ================= PREVIEW ================= */
+
+    .preview {
+        display: flex;
+        gap: 10px;
+        margin-left: 10%;
+        width: auto;
+        height: 30px;
+        margin-top: -10px;
+    }
+
+
+    /* ================= NEXT ================= */
+
+    .next {
+        display: flex;
+        margin-left: 70%;
+        margin-top: -40px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .next > img {
+        width: 30px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .next > p {
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    /* ================= MAIN CONTENT ================= */
+
+    .main-contant {
+        margin-left: 10px;
+        margin-top: -150px;
+        font-size: 10px;
+    }
+
+    .main-contant > h1 {
+        font-size: 22px;
+    }
+
+    .main-contant > p {
+        font-size: 12px;
+    }
+
+    .main-contant > button {
+        padding: 8px;
+    }
+
+
+    /* ================= SECOND SECTION ================= */
+
+    .second {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+
+    .second-img {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .right {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .one > img,
+    .two > img,
+    .three > img {
+        width: 100px;
+        height: auto;
+        float: left;
+        margin: 10px;
+    }
+
+    .one > p,
+    .two > p,
+    .three > p {
+        margin-bottom: 30px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+
+    /* ================= PRODUCTS ================= */
+
+    .product {
+        margin-left: 20px;
+        font-size: 22px;
+    }
+
+    .find {
+        margin-left: 20px;
+    }
+
+    .find > a {
+        margin-left: 5px;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .sofa {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .sofa > img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .four {
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .mail > input {
+        margin-left: 0;
+        width: 75%;
+        padding: 15px;
+    }
+
+    .mail > button {
+        margin-left: -80px;
+        padding: 8px;
+    }
+
+    footer > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    footer > ul > li {
+        margin-left: 5px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+</style>
+<body>
+    
+    <nav>
+        <h1>APJ <span>Furniture</span></h1>
+        <a href="#" class="home">Home</a>
+        <a href="#">product </a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <img src="icons8-search-30.png" class="search" alt="">
+        <img src="icon Section.png" class="user" alt="">
+    </nav>
+       <img src="Rectangle 88.png" class="main-image" alt="">
+       <img src="Rectangle 88 (1).png" class="blur" alt="">
+       <div class="preview">
+       <img src="icon.png" alt="">
+       <img src="icon (1).png" alt="">
+       </div>
+       <div class="next">
+        <p>01</p>
+        <img src="Vector 3.png" alt="">
+        
+        <p>02</p>
+       </div>
+       <div class="main-contant">
+        <h1>Help You To Make <br>Modern Furniture</h1>
+        <p>We help you to create organize your room to be <br>
+        more cozt,design by professional interier <br>designer</p>
+        <button>See our Product</button>
+       </div>
+<!-- ========================================================================================================================== -->
+       <p class="second">Some of the interier that we <br>
+         providw for you</p>
+         <img src="Group 30.png" class="second-img" alt="">
+         <div class="right">
+          <div class="one">
+          <img src="Rectangle 92.png" alt="">
+          <h3>Living Room</h3>
+          <p>As one of the most frequency spot in the <br>home a living room set room seets tone for the rest <br>of the house</p>
+          <button>Read More <span> > </span> </button>
+          </div>
+          <div class="two">
+          <img src="Rectangle 92 (1).png" alt="">
+          <h3>Living Room</h3>
+          <p>As one of the most frequency spot in the <br>home a living room set room seets tone for the rest <br>of the house</p>
+          <button>Read More <span> > </span> </button>
+          </div>
+          <div class="three">
+          <img src="Rectangle 92 (2).png" alt="">
+          <h3>Living Room</h3>
+          <p>As one of the most frequency spot in the <br>home a living room set room seets tone for the rest <br>of the house</p>
+          <button>Read More <span> > </span> </button>
+          </div>
+
+         </div>
+<!-- ======================================================================================================================================== -->
+          <h2 class="product">Product</h2>
+          <div class="find">
+            <a href="#">All</a>
+            <a href="#">Bed</a>
+            <a href="#">Char</a>
+            <a href="#">Light</a>
+            <a href="#">Sofa</a>
+            </div>
+            <div class="show">
+            <div class="sofa">
+               <p>Sofa</p>
+               <h2>Glossy Cube</h2>
+               <img src="Group 76.png"  class="cart" alt="">
+               <img src="unnamed (5) 1.png"  alt="">
+               <p class="rupi">Rp 400.00</p>
+            </div>
+            <div class="sofa">
+               <p>Light</p>
+               <h2>floor Monolamp</h2>
+               <img src="Group 76.png"  class="cart" alt="">
+               <img src="unnamed (5) 1 (1).png"  alt="">
+               <p class="rupi">Rp 210.00</p>
+            </div>
+            <div class="sofa">
+               <p>Chair</p>
+               <h2>Vintage chair</h2>
+               <img src="Group 76.png"  class="cart" alt="">
+               <img src="unnamed (5) 1 (2).png"  alt="">
+               <p class="rupi">Rp 410.00</p>
+            </div>
+            <div class="sofa">
+               <p>bed</p>
+               <h2>Comfort King Bed</h2>
+               <img src="Group 76.png"  class="cart" alt="">
+               <img src="unnamed (5) 1 (5).png"  alt="">
+               <p class="rupi">Rp 410.00</p>
+            </div>
+
+            </div>
+<!-- =================================================================================================== -->
+  <div class="four">
+    <h3>SUBSCRIBR TO GET <br>THE LAST NEWS ABOUT US</h3>
+    <P>We recomended you yo subscribe to our newspaper,<br>enter you email get daily update about us</P>
+    <div class="mail">
+    <input type="email" placeholder="Enter you email address">
+    <button type="button">Subscribe</button>
+    
+    </div>
+    <hr class="line">
+  
+     <footer>
+        <h2>SARATHKUMAR.S</h2>
+        <p>@2026.All rights reserved</p>
+        <ul>
+            <li>Abut Us</li>
+            <li>Partnership</li>
+            <li>Privacy Police</li>
+        </ul>
+     </footer>       
+    </div>
+
+</body>
+</html>
